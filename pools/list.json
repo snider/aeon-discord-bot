@@ -1,0 +1,21 @@
+{ 
+	"pools": [
+	{ 
+		"id": 1, 
+		"name": "Pool 1",
+		"URL": "https://aeonminingpool.com",
+		"Operator": "camthegeek",
+		"api": "https://api.aeonminingpool.com/api"
+	},
+	{ 
+		"id": 2, 
+		"name": "Pool 1",
+		"URL": "https://aeonminingpool.com",
+		"Operator": "camthegeek",
+		"api": "https://api.aeonminingpool.com/api"
+	}
+
+
+	]
+
+}
