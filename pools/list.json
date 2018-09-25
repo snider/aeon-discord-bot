@@ -1,21 +1,68 @@
 { 
 	"pools": [
 	{ 
-		"id": 1, 
-		"name": "Pool 1",
+		"id": 0, 
+		"name": "AEON Mining Pool",
 		"URL": "https://aeonminingpool.com",
 		"Operator": "camthegeek",
-		"api": "https://api.aeonminingpool.com/api"
+		"api": "https://api.aeonminingpool.com/api/pool/stats",
+		"location": "USA",
+		"description": "AEON Mining Pool started in August 2017. PPLNS Pool. Slack community available"
+	},
+	{ 
+		"id": 1, 
+		"name": "PoolTupi",
+		"URL": "https://pooltupi.com",
+		"Operator": "shigutso",
+		"api": "https://pooltupi.com/api/pool/stats",
+		"location": "Brazil",
+		"description": "First pool for Brazil AEON miners. Telegram community available"
 	},
 	{ 
 		"id": 2, 
-		"name": "Pool 1",
-		"URL": "https://aeonminingpool.com",
-		"Operator": "camthegeek",
-		"api": "https://api.aeonminingpool.com/api"
+		"name": "AEON-Pool.com",
+		"URL": "https://AEON-Pool.com",
+		"Operator": "suhz",
+		"api": "https://api.aeon-pool.com/v1/stats",
+		"location": "asia",
+		"description": "AEON Pool. An original AEON pool. No community outside forums"
+	},
+	{ 
+		"id": 3, 
+		"name": "DurinsMine.com",
+		"URL": "https://DurinsMine.com",
+		"Operator": "p00rly_Timed_legalos",
+		"api": "https://www.durinsmine.com/api/pool/stats",
+		"location": "FR",
+		"description": "durins."
+	},
+	{ 
+		"id": 4, 
+		"name": "aeon.hashvault.pro",
+		"URL": "https://aeon.hashvault.pro",
+		"Operator": "hashvault team",
+		"api": "https://aeon.hashvault.pro/api/pool/stats",
+		"location": "International",
+		"description": "le hashvaults"
+	},
+		{ 
+		"id": 5, 
+		"name": "Miner.rocks",
+		"URL": "https://aeon.miner.rocks/",
+		"Operator": "unknown.",
+		"api": "https://aeon.miner.rocks/api/stats",
+		"location": "unknown",
+		"description": "random shitcoin pool system"
+	},
+		{ 
+		"id": 6, 
+		"name": "aeon.team",
+		"URL": "https://aeon.team/",
+		"Operator": "unknown.",
+		"api": "https://pool.aeon.team:85/api/pool/stats",
+		"location": "unknown.",
+		"description": "peopple mine here too."
 	}
-
-
 	]
 
 }
