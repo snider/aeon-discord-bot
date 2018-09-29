@@ -62,6 +62,15 @@
 		"api": "https://pool.aeon.team:85/api/pool/stats",
 		"location": "unknown.",
 		"description": "peopple mine here too."
+	},
+		{ 
+		"id": 7, 
+		"name": "PrivPool.com",
+		"URL": "https://aeon.privpool.com/",
+		"Operator": "Birdperson",
+		"api": "https://aeon.privpool.com/api/pool/stats",
+		"location": "USA",
+		"description": "0% Fee and Community Funded"
 	}
 	]
 
