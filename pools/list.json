@@ -93,7 +93,7 @@
       },
       {  
          "id":7,
-         "name":"PrivPool.com",
+         "name":"aeon.privpool.com",
          "URL":"https://aeon.privpool.com/",
          "Operator":"CarbonCG/Birdperson.",
          "api":{  
@@ -106,19 +106,6 @@
       },
       {  
          "id":8,
-         "name":"aeon.c1d2.com",
-         "URL":"https://aeon.c1d2.com/",
-         "Operator":"unknown",
-         "api":{  
-            "pool":"https://aeonapi.c1d2.com/stats",
-            "config":"https://aeonapi.c1d2.com/stats"
-         },
-         "pool_type":"Proportional",
-         "location":"Unknown",
-         "description":"China AEON mining"
-      },
-      {  
-         "id":9,
          "name":"aeonpool.net",
          "URL":"https://aeonpool.net/",
          "Operator":"Unknown",
@@ -131,7 +118,7 @@
          "description":"Not much is known about this pool."
       },
       {  
-         "id":10,
+         "id":9,
          "name":"aeon.cryptoserb.com",
          "URL":"http://aeon.cryptoserb.com/",
          "Operator":"CryptoSerb/ReBoRnBG",
@@ -144,7 +131,7 @@
          "description":"Not much is known about this pool."
       },
       {  
-         "id":11,
+         "id":10,
          "name":"aeon.hashpool.vip",
          "URL":"https://aeon.hashpool.vip/",
          "Operator":"unknown",
@@ -157,57 +144,83 @@
          "description":"Not much is known about this pool."
       },
       { 
-		"id": 12, 
-		"name": "minercountry.com",
-		"URL": "https://aeon.minercountry.com/",
-		"Operator": "campurro",
-		"api": {
-			"pool": "https://aeon.minercountry.com/api/stats",
-			"config": "https://aeon.minercountry.com/api/stats"
-		},
-		"pool_type": "Proportional",
-		"location": "UK",
-		"description": "Mine AEON + BSM, AT SAME DAMN TIME!"
-	  },
-	  { 
-		"id": 13, 
-		"name": "Cryptoknight.cc",
-		"URL": "https://cryptoknight.cc/aeon/",
-		"Operator": "unknown",
-		"api": {
-			"pool":"https://cryptoknight.cc/rpc/aeon/stats",
-			"config":"https://cryptoknight.cc/rpc/aeon/stats"
-		},
-		"pool_type": "Proportional",
-		"location": "DE",
-		"description": "Another multi-coin mining system. Discord community available"
-	},
-	{ 
-		"id": 14, 
-		"name": "aeon-mine.com",
-		"URL": "https://aeon-mine.com",
-		"Operator": "Unknown",
-		"api": 
-		{"pool":"https://api.aeon-mine.com:8119/stats",
-		"config": "https://api.aeon-mine.com:8119/stats"
-		},
-		"pool_type": "Proportional",
-		"location": "UK",
-		"description": "A Couple of UK Miners. Discord Community available"
-	},
+      "id": 11, 
+      "name": "minercountry.com",
+      "URL": "https://aeon.minercountry.com/",
+      "Operator": "campurro",
+      "api": {
+         "pool": "https://aeon.minercountry.com/api/stats",
+         "config": "https://aeon.minercountry.com/api/stats"
+      },
+      "pool_type": "Proportional",
+      "location": "UK",
+      "description": "Mine AEON + BSM, AT SAME DAMN TIME!"
+     },
+     { 
+      "id": 12, 
+      "name": "Cryptoknight.cc",
+      "URL": "https://cryptoknight.cc/aeon/",
+      "Operator": "unknown",
+      "api": {
+         "pool":"https://cryptoknight.cc/rpc/aeon/stats",
+         "config":"https://cryptoknight.cc/rpc/aeon/stats"
+      },
+      "pool_type": "Proportional",
+      "location": "DE",
+      "description": "Another multi-coin mining system. Discord community available"
+   },
+   { 
+      "id": 13, 
+      "name": "aeon-mine.com",
+      "URL": "https://aeon-mine.com",
+      "Operator": "Unknown",
+      "api": 
+      {"pool":"https://api.aeon-mine.com:8119/stats",
+      "config": "https://api.aeon-mine.com:8119/stats"
+      },
+      "pool_type": "Proportional",
+      "location": "UK",
+      "description": "A Couple of UK Miners. Discord Community available"
+   },
 
-	{ 
-		"id": 14, 
-		"name": "rupool.tk",
-		"URL": "https://aeon.rupool.tk",
-		"Operator": "unknown",
-		"api": { 
-			"pool": "https://aeon.rupool.tk:8119/stats",
-			"config": "https://aeon.rupool.tk:8119/stats"
-		},
-		"pool_type": "Proportional",
-		"location": "RU",
-		"description": "AEON, Vodka and Mining. What more could a Russian want?"
-	}
+   { 
+      "id": 14, 
+      "name": "rupool.tk",
+      "URL": "https://aeon.rupool.tk",
+      "Operator": "unknown",
+      "api": { 
+         "pool": "https://aeon.rupool.tk:8119/stats",
+         "config": "https://aeon.rupool.tk:8119/stats"
+      },
+      "pool_type": "Proportional",
+      "location": "RU",
+      "description": "AEON, Vodka and Mining. What more could a Russian want?"
+   },
+   { 
+      "id": 15, 
+      "name": "myAEON.ru",
+      "URL": "https://myaeon.ru/",
+      "Operator": "unknown",
+      "api": { 
+         "pool": "https://myaeon.ru:9119/stats",
+         "config": "https://myaeon.ru:9119/stats"
+      },
+      "pool_type": "Proportional",
+      "location": "RU",
+      "description": "Another AEON mining pool"
+   },
+{  
+         "id":16,
+         "name":"aeon-pool.de",
+         "URL":"https://aeon-pool.de/",
+         "Operator":"W00F",
+         "api":{  
+            "pool":"https://pool.aeon-pool.de/api/pool/stats",
+            "config":"https://pool.aeon-pool.de/api/config"
+         },
+         "pool_type":"pplns",
+         "location":"Unknown",
+         "description":"Not much is known about this pool."
+      }
    ]
 }
