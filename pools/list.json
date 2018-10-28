@@ -1,77 +1,213 @@
-{ 
-	"pools": [
-	{ 
-		"id": 0, 
-		"name": "AEON Mining Pool",
-		"URL": "https://aeonminingpool.com",
-		"Operator": "camthegeek",
-		"api": "https://api.aeonminingpool.com/api/pool/stats",
-		"location": "USA",
-		"description": "AEON Mining Pool started in August 2017. PPLNS Pool. Slack community available"
+{  
+   "pools":[  
+      {  
+         "id":0,
+         "name":"AEONMiningPool.com",
+         "URL":"https://aeonminingpool.com",
+         "Operator":"camthegeek",
+         "api":{  
+            "pool":"https://api.aeonminingpool.com/api/pool/stats",
+            "config":"https://api.aeonminingpool.com/api/config"
+         },
+         "pool_type":"pplns",
+         "location":"USA (Chicago), FR (Paris)",
+         "description":"AEON Mining Pool started in August 2017. Slack community available"
+      },
+      {  
+         "id":1,
+         "name":"PoolTupi.com",
+         "URL":"https://pooltupi.com",
+         "Operator":"shigutso",
+         "api":{  
+            "pool":"https://pooltupi.com/api/pool/stats",
+            "config":"https://pooltupi.com/api/config"
+         },
+         "pool_type":"pplns",
+         "location":"Brazil",
+         "description":"First pool for Brazil AEON miners. Telegram community available"
+      },
+      {  
+         "id":2,
+         "name":"AEON-Pool.com",
+         "URL":"https://AEON-Pool.com",
+         "Operator":"suhz",
+         "api":{  
+            "pool":"https://api.aeon-pool.com/v1/stats",
+            "config":"https://api.aeon-pool.com/v1/stats"
+         },
+         "pool_type":"Proportional",
+         "location":"asia",
+         "description":"AEON Pool. An original AEON pool. No community outside forums"
+      },
+      {  
+         "id":3,
+         "name":"DurinsMine.com",
+         "URL":"https://DurinsMine.com",
+         "Operator":"p00rly_Timed_legalos",
+         "api":{  
+            "pool":"https://www.durinsmine.com/api/pool/stats",
+            "config":"https://www.durinsmine.com/api/config"
+         },
+         "pool_type":"pplns",
+         "location":"FR, International",
+         "description":"Pool with additional UI features"
+      },
+      {  
+         "id":4,
+         "name":"aeon.hashvault.pro",
+         "URL":"https://aeon.hashvault.pro",
+         "Operator":"hashvault team",
+         "api":{  
+            "pool":"https://aeon.hashvault.pro/api/pool/stats",
+            "config":"https://aeon.hashvault.pro/api/config"
+         },
+         "pool_type":"pplns",
+         "location":"International",
+         "description":"Hashvault, multi-coin PPLNS mining. Discord community available"
+      },
+      {  
+         "id":5,
+         "name":"Miner.rocks",
+         "URL":"https://aeon.miner.rocks/",
+         "Operator":"Unknown",
+         "api":{  
+            "pool":"https://aeon.miner.rocks/api/stats",
+            "config":"https://aeon.miner.rocks/api/stats"
+         },
+         "pool_type":"Proportional",
+         "location":"unknown",
+         "description":"Not much is known about this pool."
+      },
+      {  
+         "id":6,
+         "name":"aeon.team",
+         "URL":"https://aeon.team/",
+         "Operator":"Unknown",
+         "api":{  
+            "pool":"https://pool.aeon.team:85/api/pool/stats",
+            "config":"https://pool.aeon.team:85/api/config"
+         },
+         "pool_type":"pplns",
+         "location":"Unknown",
+         "description":"Not much is known about this pool."
+      },
+      {  
+         "id":7,
+         "name":"PrivPool.com",
+         "URL":"https://aeon.privpool.com/",
+         "Operator":"CarbonCG/Birdperson.",
+         "api":{  
+            "pool":"https://aeon-api.privpool.com/pool/stats",
+            "config":"https://aeon-api.privpool.com/config"
+         },
+         "pool_type":"pplns",
+         "location":"Unknown",
+         "description":"0% Fee and Community Funded."
+      },
+      {  
+         "id":8,
+         "name":"aeon.c1d2.com",
+         "URL":"https://aeon.c1d2.com/",
+         "Operator":"unknown",
+         "api":{  
+            "pool":"https://aeonapi.c1d2.com/stats",
+            "config":"https://aeonapi.c1d2.com/stats"
+         },
+         "pool_type":"Proportional",
+         "location":"Unknown",
+         "description":"China AEON mining"
+      },
+      {  
+         "id":9,
+         "name":"aeonpool.net",
+         "URL":"https://aeonpool.net/",
+         "Operator":"Unknown",
+         "api":{  
+            "pool":"https://aeonpool.net/api/pool/stats",
+            "config":"https://aeonpool.net/api/config"
+         },
+         "pool_type":"pplns",
+         "location":"Unknown",
+         "description":"Not much is known about this pool."
+      },
+      {  
+         "id":10,
+         "name":"aeon.cryptoserb.com",
+         "URL":"http://aeon.cryptoserb.com/",
+         "Operator":"CryptoSerb/ReBoRnBG",
+         "api":{  
+            "pool":"http://aeon.cryptoserb.com:8117/stats",
+            "config":"http://aeon.cryptoserb.com:8117/stats"
+         },
+         "pool_type":"Proportional",
+         "location":"Unknown",
+         "description":"Not much is known about this pool."
+      },
+      {  
+         "id":11,
+         "name":"aeon.hashpool.vip",
+         "URL":"https://aeon.hashpool.vip/",
+         "Operator":"unknown",
+         "api":{  
+            "pool":"https://aeon.hashpool.vip:8000/stats",
+            "config":"https://aeon.hashpool.vip:8000/stats"
+         },
+         "pool_type":"Proportional",
+         "location":"unknown",
+         "description":"Not much is known about this pool."
+      },
+      { 
+		"id": 12, 
+		"name": "minercountry.com",
+		"URL": "https://aeon.minercountry.com/",
+		"Operator": "campurro",
+		"api": {
+			"pool": "https://aeon.minercountry.com/api/stats",
+			"config": "https://aeon.minercountry.com/api/stats"
+		},
+		"pool_type": "Proportional",
+		"location": "UK",
+		"description": "Mine AEON + BSM, AT SAME DAMN TIME!"
+	  },
+	  { 
+		"id": 13, 
+		"name": "Cryptoknight.cc",
+		"URL": "https://cryptoknight.cc/aeon/",
+		"Operator": "unknown",
+		"api": {
+			"pool":"https://cryptoknight.cc/rpc/aeon/stats",
+			"config":"https://cryptoknight.cc/rpc/aeon/stats"
+		},
+		"pool_type": "Proportional",
+		"location": "DE",
+		"description": "Another multi-coin mining system. Discord community available"
 	},
 	{ 
-		"id": 1, 
-		"name": "PoolTupi",
-		"URL": "https://pooltupi.com",
-		"Operator": "shigutso",
-		"api": "https://pooltupi.com/api/pool/stats",
-		"location": "Brazil",
-		"description": "First pool for Brazil AEON miners. Telegram community available"
+		"id": 14, 
+		"name": "aeon-mine.com",
+		"URL": "https://aeon-mine.com",
+		"Operator": "Unknown",
+		"api": 
+		{"pool":"https://api.aeon-mine.com:8119/stats",
+		"config": "https://api.aeon-mine.com:8119/stats"
+		},
+		"pool_type": "Proportional",
+		"location": "UK",
+		"description": "A Couple of UK Miners. Discord Community available"
 	},
-	{ 
-		"id": 2, 
-		"name": "AEON-Pool.com",
-		"URL": "https://AEON-Pool.com",
-		"Operator": "suhz",
-		"api": "https://api.aeon-pool.com/v1/stats",
-		"location": "asia",
-		"description": "AEON Pool. An original AEON pool. No community outside forums"
-	},
-	{ 
-		"id": 3, 
-		"name": "DurinsMine.com",
-		"URL": "https://DurinsMine.com",
-		"Operator": "p00rly_Timed_legalos",
-		"api": "https://www.durinsmine.com/api/pool/stats",
-		"location": "FR",
-		"description": "durins."
-	},
-	{ 
-		"id": 4, 
-		"name": "aeon.hashvault.pro",
-		"URL": "https://aeon.hashvault.pro",
-		"Operator": "hashvault team",
-		"api": "https://aeon.hashvault.pro/api/pool/stats",
-		"location": "International",
-		"description": "le hashvaults"
-	},
-		{ 
-		"id": 5, 
-		"name": "Miner.rocks",
-		"URL": "https://aeon.miner.rocks/",
-		"Operator": "unknown.",
-		"api": "https://aeon.miner.rocks/api/stats",
-		"location": "unknown",
-		"description": "random shitcoin pool system"
-	},
-		{ 
-		"id": 6, 
-		"name": "aeon.team",
-		"URL": "https://aeon.team/",
-		"Operator": "unknown.",
-		"api": "https://pool.aeon.team:85/api/pool/stats",
-		"location": "unknown.",
-		"description": "peopple mine here too."
-	},
-		{ 
-		"id": 7, 
-		"name": "PrivPool.com",
-		"URL": "https://aeon.privpool.com/",
-		"Operator": "Birdperson",
-		"api": "https://aeon.privpool.com/api/pool/stats",
-		"location": "USA",
-		"description": "0% Fee and Community Funded"
-	}
-	]
 
+	{ 
+		"id": 14, 
+		"name": "rupool.tk",
+		"URL": "https://aeon.rupool.tk",
+		"Operator": "unknown",
+		"api": { 
+			"pool": "https://aeon.rupool.tk:8119/stats",
+			"config": "https://aeon.rupool.tk:8119/stats"
+		},
+		"pool_type": "Proportional",
+		"location": "RU",
+		"description": "AEON, Vodka and Mining. What more could a Russian want?"
+	}
+   ]
 }
