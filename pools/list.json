@@ -58,8 +58,8 @@
          "URL":"https://aeon.hashvault.pro",
          "Operator":"hashvault team",
          "api":{  
-            "pool":"https://aeon.hashvault.pro/api/pool/stats",
-            "config":"https://aeon.hashvault.pro/api/config"
+            "pool":"https://api.hashvault.pro/v2/aeon/pool/stats",
+            "config":"https://api.hashvault.pro/v2/aeon/config"
          },
          "pool_type":"pplns",
          "location":"International",
